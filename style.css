@@ -1,0 +1,88 @@
+body {
+    background-color: #000;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+button {
+    background-color: #10B981;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 60px;
+    padding: 5px 6px;
+    width: 235px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #20b2aa;
+}
+
+button:active {
+    background-color: aquamarine;
+}
+
+#titles {
+    width: 500px;
+    height: 575px;
+    border: 5px solid white;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #1f2937;
+}
+
+#titles1 {
+    margin-bottom: 1%;
+}
+
+#generate {
+    color: #fff;
+    padding-top: 100px;
+    margin-bottom: 0em;
+    margin-top: 0px;
+}
+
+#randomPassword {
+    color: #00fa9a;
+    font-weight: 500px;
+    margin-bottom: 0em;
+}
+
+#message {
+    color: #d3d3d3;
+    font-size: 20px;
+}
+
+
+#generated-pw1, #generated-pw2, 
+#generated-pw3, #generated-pw4 {
+    color: white;
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid white;
+    background-color: #273549;
+    border-radius: 5px;
+    border: 1px solid #273549;;
+}
+
+#generated-password, #generated-password1 {
+   display: flex;
+   justify-content: space-around;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+
+
+
+
+
